@@ -1,0 +1,2 @@
+C:\Users\NTBK\Desktop\GitHub\EEGaming\EEGaming\Intermediate\Build\Win64\UE4Editor\Development\EEGaming\Definitions.EEGaming.h
+C:\Users\NTBK\Desktop\GitHub\EEGaming\EEGaming\Source\EEGaming\EEGaming.h

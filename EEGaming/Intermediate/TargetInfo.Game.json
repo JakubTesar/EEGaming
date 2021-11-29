@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "EEGaming",
+			"Path": "C:\\Users\\NTBK\\Desktop\\GitHub\\EEGaming\\EEGaming\\Source\\EEGaming.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "EEGamingEditor",
+			"Path": "C:\\Users\\NTBK\\Desktop\\GitHub\\EEGaming\\EEGaming\\Source\\EEGamingEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\EEGaming.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{69B4D68A-CBB1-43CD-A960-590E1A4F1B76}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EEGaming.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\EEGamingEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{0C420994-F877-4F2D-82C9-CAA49C12F887}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\EEGaming">
+      <UniqueIdentifier>{FBC2829D-6642-468D-872A-BE0A98A5EBC3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\EEGaming\EEGaming.Build.cs">
+      <Filter>Source\EEGaming</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\EEGaming\EEGaming.cpp">
+      <Filter>Source\EEGaming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EEGaming\EEGaming.h">
+      <Filter>Source\EEGaming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EEGaming\EEGamingGameModeBase.cpp">
+      <Filter>Source\EEGaming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EEGaming\EEGamingGameModeBase.h">
+      <Filter>Source\EEGaming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EEGaming\MainCamera.cpp">
+      <Filter>Source\EEGaming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EEGaming\MainCamera.h">
+      <Filter>Source\EEGaming</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

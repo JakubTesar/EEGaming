@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Camera/CameraComponent.h"
 #include "GameFramework/Character.h"
+#include "GameFramework/SpringArmComponent.h"
 #include "MainCamera.generated.h"
 
 UCLASS()
@@ -15,6 +16,10 @@ class EEGAMING_API AMainCamera : public ACharacter
 public:
 	UPROPERTY(EditAnywhere)
 	UCameraComponent* CameraComponent;
+	OnClicked->AddUniqueDynamic(this, &AMainCamera::OnSelected);
+
+	UPROPERTY(EditAnywhere)
+	USpringArmComponent* SpringArmComponent;
 	// Sets default values for this character's properties
 	AMainCamera();
 
@@ -33,3 +38,5 @@ public:
 	void MoveSideways(float Direction);
 
 };
+UFUNCTION()
+		void OnSelected(AActor* Target, FKey ButtonPressed);

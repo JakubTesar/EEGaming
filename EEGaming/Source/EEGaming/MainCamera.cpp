@@ -10,9 +10,13 @@ AMainCamera::AMainCamera()
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
-
+	SpringArmComponent = CreateDefaultSubobject<USpringArmComponent>("Arm");
+	SpringArmComponent->SetupAttachment(RootComponent);
+	SpringArmComponent->TargetArmLength = 300;
+	SpringArmComponent->bUsePawnControlRotation = true;
+	
 	CameraComponent = CreateDefaultSubobject<UCameraComponent>("Camera");
-
+	CameraComponent->SetupAttachment(SpringArmComponent, USpringArmComponent::SocketName);
 }
 
 // Called when the game starts or when spawned
@@ -36,6 +40,8 @@ void AMainCamera::SetupPlayerInputComponent(UInputComponent* PlayerInputComponen
 
 	PlayerInputComponent->BindAxis("Forward", this, &AMainCamera::MoveFoward);
 	PlayerInputComponent->BindAxis("Sideways", this, &AMainCamera::MoveSideways);
+	PlayerInputComponent->BindAxis("MouseMovementX", this, &AMainCamera::AddControllerYawInput);
+	PlayerInputComponent->BindAxis("MouseMovementY", this, &AMainCamera::AddControllerPitchInput);
 }
 
 void AMainCamera::MoveFoward(float Direction)
@@ -45,4 +51,8 @@ void AMainCamera::MoveFoward(float Direction)
 void AMainCamera::MoveSideways(float Direction)
 {
 	AddMovementInput(GetActorRightVector(), Direction);
+}
+void AMainCamera::OnSelected(AActor* Target, FKey ButtonPressed)
+{
+	GEngine->AddOnScreenDebugMessage(-1, 2.f, FColor::Cyan, FString("EEEEEEEEEEEEEEEEE"));
 }

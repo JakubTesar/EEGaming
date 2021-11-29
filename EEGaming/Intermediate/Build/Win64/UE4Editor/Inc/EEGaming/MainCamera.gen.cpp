@@ -18,6 +18,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCamera() {}
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	UPackage* Z_Construct_UPackage__Script_EEGaming();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 // End Cross Module References
 	void AMainCamera::StaticRegisterNativesAMainCamera()
 	{
@@ -36,6 +37,10 @@ void EmptyLinkFunctionForGeneratedCodeMainCamera() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_CameraComponent_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_CameraComponent;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SpringArmComponent_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_SpringArmComponent;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -59,8 +64,17 @@ void EmptyLinkFunctionForGeneratedCodeMainCamera() {}
 	};
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCamera_Statics::NewProp_CameraComponent = { "CameraComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCamera, CameraComponent), Z_Construct_UClass_UCameraComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainCamera_Statics::NewProp_CameraComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainCamera_Statics::NewProp_CameraComponent_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMainCamera_Statics::NewProp_SpringArmComponent_MetaData[] = {
+		{ "Category", "MainCamera" },
+		{ "EditInline", "true" },
+		{ "ModuleRelativePath", "MainCamera.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AMainCamera_Statics::NewProp_SpringArmComponent = { "SpringArmComponent", nullptr, (EPropertyFlags)0x0010000000080009, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMainCamera, SpringArmComponent), Z_Construct_UClass_USpringArmComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_AMainCamera_Statics::NewProp_SpringArmComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_AMainCamera_Statics::NewProp_SpringArmComponent_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMainCamera_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCamera_Statics::NewProp_CameraComponent,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMainCamera_Statics::NewProp_SpringArmComponent,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMainCamera_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMainCamera>::IsAbstract,
@@ -89,7 +103,7 @@ void EmptyLinkFunctionForGeneratedCodeMainCamera() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMainCamera, 539949444);
+	IMPLEMENT_CLASS(AMainCamera, 877877095);
 	template<> EEGAMING_API UClass* StaticClass<AMainCamera>()
 	{
 		return AMainCamera::StaticClass();

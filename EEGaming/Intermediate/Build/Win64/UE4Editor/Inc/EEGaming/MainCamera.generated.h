@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define EEGAMING_MainCamera_generated_h
 
-#define EEGaming_Source_EEGaming_MainCamera_h_13_SPARSE_DATA
-#define EEGaming_Source_EEGaming_MainCamera_h_13_RPC_WRAPPERS
-#define EEGaming_Source_EEGaming_MainCamera_h_13_RPC_WRAPPERS_NO_PURE_DECLS
-#define EEGaming_Source_EEGaming_MainCamera_h_13_INCLASS_NO_PURE_DECLS \
+#define EEGaming_Source_EEGaming_MainCamera_h_14_SPARSE_DATA
+#define EEGaming_Source_EEGaming_MainCamera_h_14_RPC_WRAPPERS
+#define EEGaming_Source_EEGaming_MainCamera_h_14_RPC_WRAPPERS_NO_PURE_DECLS
+#define EEGaming_Source_EEGaming_MainCamera_h_14_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMainCamera(); \
 	friend struct Z_Construct_UClass_AMainCamera_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(AMainCamera)
 
 
-#define EEGaming_Source_EEGaming_MainCamera_h_13_INCLASS \
+#define EEGaming_Source_EEGaming_MainCamera_h_14_INCLASS \
 private: \
 	static void StaticRegisterNativesAMainCamera(); \
 	friend struct Z_Construct_UClass_AMainCamera_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(AMainCamera)
 
 
-#define EEGaming_Source_EEGaming_MainCamera_h_13_STANDARD_CONSTRUCTORS \
+#define EEGaming_Source_EEGaming_MainCamera_h_14_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMainCamera(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMainCamera) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define EEGaming_Source_EEGaming_MainCamera_h_13_ENHANCED_CONSTRUCTORS \
+#define EEGaming_Source_EEGaming_MainCamera_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AMainCamera(AMainCamera&&); \
@@ -58,28 +58,28 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMainCamera); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AMainCamera)
 
 
-#define EEGaming_Source_EEGaming_MainCamera_h_13_PRIVATE_PROPERTY_OFFSET
-#define EEGaming_Source_EEGaming_MainCamera_h_10_PROLOG
-#define EEGaming_Source_EEGaming_MainCamera_h_13_GENERATED_BODY_LEGACY \
+#define EEGaming_Source_EEGaming_MainCamera_h_14_PRIVATE_PROPERTY_OFFSET
+#define EEGaming_Source_EEGaming_MainCamera_h_11_PROLOG
+#define EEGaming_Source_EEGaming_MainCamera_h_14_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	EEGaming_Source_EEGaming_MainCamera_h_13_PRIVATE_PROPERTY_OFFSET \
-	EEGaming_Source_EEGaming_MainCamera_h_13_SPARSE_DATA \
-	EEGaming_Source_EEGaming_MainCamera_h_13_RPC_WRAPPERS \
-	EEGaming_Source_EEGaming_MainCamera_h_13_INCLASS \
-	EEGaming_Source_EEGaming_MainCamera_h_13_STANDARD_CONSTRUCTORS \
+	EEGaming_Source_EEGaming_MainCamera_h_14_PRIVATE_PROPERTY_OFFSET \
+	EEGaming_Source_EEGaming_MainCamera_h_14_SPARSE_DATA \
+	EEGaming_Source_EEGaming_MainCamera_h_14_RPC_WRAPPERS \
+	EEGaming_Source_EEGaming_MainCamera_h_14_INCLASS \
+	EEGaming_Source_EEGaming_MainCamera_h_14_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define EEGaming_Source_EEGaming_MainCamera_h_13_GENERATED_BODY \
+#define EEGaming_Source_EEGaming_MainCamera_h_14_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	EEGaming_Source_EEGaming_MainCamera_h_13_PRIVATE_PROPERTY_OFFSET \
-	EEGaming_Source_EEGaming_MainCamera_h_13_SPARSE_DATA \
-	EEGaming_Source_EEGaming_MainCamera_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
-	EEGaming_Source_EEGaming_MainCamera_h_13_INCLASS_NO_PURE_DECLS \
-	EEGaming_Source_EEGaming_MainCamera_h_13_ENHANCED_CONSTRUCTORS \
+	EEGaming_Source_EEGaming_MainCamera_h_14_PRIVATE_PROPERTY_OFFSET \
+	EEGaming_Source_EEGaming_MainCamera_h_14_SPARSE_DATA \
+	EEGaming_Source_EEGaming_MainCamera_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
+	EEGaming_Source_EEGaming_MainCamera_h_14_INCLASS_NO_PURE_DECLS \
+	EEGaming_Source_EEGaming_MainCamera_h_14_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

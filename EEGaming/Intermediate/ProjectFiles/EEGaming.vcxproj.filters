@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\EEGaming.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{69B4D68A-CBB1-43CD-A960-590E1A4F1B76}</UniqueIdentifier>
+      <UniqueIdentifier>{BCE7CECD-D643-4EED-AEC2-4B4B2672DC22}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EEGaming.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{0C420994-F877-4F2D-82C9-CAA49C12F887}</UniqueIdentifier>
+      <UniqueIdentifier>{C3EF3657-0C56-4863-9621-8D9C143F8C37}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,8 +23,11 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\EEGaming">
-      <UniqueIdentifier>{FBC2829D-6642-468D-872A-BE0A98A5EBC3}</UniqueIdentifier>
+      <UniqueIdentifier>{3D737F49-C745-4A9C-92B3-155B7E0E37E4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\EEGaming\EEGaming.Build.cs">
       <Filter>Source\EEGaming</Filter>
@@ -39,6 +42,24 @@
       <Filter>Source\EEGaming</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\EEGaming\EEGamingGameModeBase.h">
+      <Filter>Source\EEGaming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EEGaming\Food.cpp">
+      <Filter>Source\EEGaming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EEGaming\Food.h">
+      <Filter>Source\EEGaming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EEGaming\FoodOre.cpp">
+      <Filter>Source\EEGaming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EEGaming\FoodOre.h">
+      <Filter>Source\EEGaming</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\EEGaming\FoodOre1.cpp">
+      <Filter>Source\EEGaming</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\EEGaming\FoodOre1.h">
       <Filter>Source\EEGaming</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\EEGaming\MainCamera.cpp">
